@@ -1,0 +1,40 @@
+1. User Authentication & Roles
+User registration/login
+Role-based access (e.g., Admin, Family Member, Guest)
+Password hashing (using PHP password_hash)
+Session management
+
+2. Inventory Items Management
+Add new household items
+Edit/delete items
+Item category (e.g., Furniture, Electronics, Kitchen)
+Item condition (New, Good, Needs Repair, Broken)
+Quantity, Brand, Model, Purchase date, Warranty info
+Photo upload (e.g., image of refrigerator)
+
+3. Location / Room Mapping
+Define rooms: Bedroom, Kitchen, Living Room, etc.
+Assign items to rooms
+Search/filter items by room
+
+4. Item History / Movement
+Track item movement (e.g., moved sofa from Living Room to Guest Room)
+Log changes: who moved it, when
+
+5. Maintenance / Service Tracker
+Schedule maintenance (e.g., AC servicing)
+Reminder feature
+Service history per item
+
+6. Reporting / Export
+Generate inventory report (by category, room, condition, etc.)
+Export to PDF/Excel
+Low stock or maintenance due alerts
+
+7. Notifications (Optional)
+Email notifications for maintenance
+Warranty expiry alerts
+
+8. Audit Log (Admin Only)
+Track who added/edited/deleted items
+Useful for multi-user systems
