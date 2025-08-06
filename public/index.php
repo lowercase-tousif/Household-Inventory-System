@@ -1,9 +1,15 @@
 <?php
 
-require_once '../config/Database.php';
-$db = new Database();
-$conn = $db->getConnection();
+/*** === Code here for testing purpose only ==== ***/
+
+// require_once '../config/Database.php';
+// $db = new Database();
+// $conn = $db->getConnection();
 ?>
+// **** END  *****
+
+
+// Homepage started 
 
 <!DOCTYPE html>
 <html lang="en">
