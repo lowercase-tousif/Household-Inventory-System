@@ -6,10 +6,7 @@
 // $db = new Database();
 // $conn = $db->getConnection();
 ?>
-// **** END  *****
 
-
-// Homepage started 
 
 <!DOCTYPE html>
 <html lang="en">
