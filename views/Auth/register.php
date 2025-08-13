@@ -1,13 +1,30 @@
-<form method="POST">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register</title>
+<link rel="stylesheet" href="../../public/css/register.css">
+</head>
+<body>
+<form action="/household-inventory-system/index.php?action=register" method="POST">
     <h2>Register</h2>
-    Username: <input type="text" name="username" required><br>
-    Password: <input type="password" name="password" required><br>
-    Role: 
-    <select name="role">
-        <option value="admin">Admin</option>
-        <option value="family">Family Member</option>
-        <option value="guest">Guest</option>
-    </select><br>
-    <input type="submit" value="Register">
+    <?php if(!empty($error)) echo "<p style='color:red;'>$error</p>"; ?>
+    <div class="input-group">
+        <input type="text" name="username" placeholder="Enter Username" required>
+    </div>
+    <div class="input-group">
+        <input type="password" name="password" placeholder="Enter Password" required>
+    </div>
+    <div class="input-group">
+        <select name="role" required>
+            <option value="" disabled selected>Select Role</option>
+            <option value="admin">Admin</option>
+            <option value="family">Family Member</option>
+            <option value="guest">Guest</option>
+        </select>
+    </div>
+    <button type="submit">Register</button>
 </form>
-    
+</body>
+</html>
