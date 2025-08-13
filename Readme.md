@@ -23,7 +23,7 @@ A basic inventory management system for managing household items using **Raw PHP
 
   
 
-### 📦 2. Inventory Management (coming next)
+### 📦 2. Inventory Management (Working) 
 
 - Add, update, delete items
 
