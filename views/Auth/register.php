@@ -24,6 +24,8 @@
             <option value="guest">Guest</option>
         </select>
     </div>
+
+    <p>Already have an account? <a href="login.php">Login here</a></p>
     <button type="submit">Register</button>
 </form>
 </body>

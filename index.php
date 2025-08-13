@@ -2,7 +2,7 @@
 session_start();
 require_once __DIR__ . "/controllers/AuthController.php";
 
-$action = $_GET['action'] ?? 'register'; // default register
+$action = $_GET['action'] ?? 'login'; // default register
 
 $auth = new AuthController();
 

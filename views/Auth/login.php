@@ -16,6 +16,7 @@
     <div class="input-group">
         <input type="password" name="password" placeholder="Enter Password" required>
     </div>
+    <p>New to the application ? <a href="register.php">register here</a></p>
     <button type="submit">Login</button>
 </form>
 </body>
