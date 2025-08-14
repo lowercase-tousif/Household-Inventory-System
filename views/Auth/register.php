@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Register</title>
-<link rel="stylesheet" href="../../public/css/register.css">
+<link rel="stylesheet" href="/household-inventory-system/views/css/register.css">
 </head>
 <body>
 <form action="/household-inventory-system/index.php?action=register" method="POST">
@@ -26,7 +26,7 @@
     </div>
 
     <p>Already have an account? <a href="login.php">Login here</a></p>
-    <button type="submit">Register</button>
+    <button class="submit-btn" type="submit">Register</button>
 </form>
 </body>
 </html>
