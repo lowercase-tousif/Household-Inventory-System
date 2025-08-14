@@ -28,7 +28,7 @@ class AuthController
             $user = $userModel->login($_POST['username'], $_POST['password']);
             if ($user) {
                 $_SESSION['user'] = $user;
-                header('Location: /views/dashboard/index.php');
+                header('Location: views/dashboard/index.php');
                 exit;
             } else {
                 $error = "Invalid Credentials";
@@ -41,7 +41,6 @@ class AuthController
     public function logout()
     {
         session_destroy();
-        header('Location: /household-inventory-system/index.php?action=login');
         exit;
     }
 }
